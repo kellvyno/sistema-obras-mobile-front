@@ -157,7 +157,6 @@ sistema-obras-mobile-final/
 ├── package-lock.json            # Garante que as versões das dependências sejam fixas
 └── package.json                 # Metadados do projeto e lista de dependências
 
-
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs ou sugestões de melhoria, ou para enviar pull requests com novas funcionalidades.
 📞 Suporte
 
