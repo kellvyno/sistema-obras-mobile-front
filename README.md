@@ -54,15 +54,15 @@ Para configurar e rodar este aplicativo em seu ambiente de desenvolvimento, voc�
 
 🚀 Instalação e Execução
 
-Siga os passos abaixo para configurar e iniciar o aplicativo mobile.
-1. Clone o Repositório:
+  Siga os passos abaixo para configurar e iniciar o aplicativo mobile.
+    1. Clone o Repositório:
 
-git clone https://github.com/seu-usuario/sistema-obras-mobile.git
-cd sistema-obras-mobile # Ou o nome do seu diretório clonado, ex: sistema-obras-mobile-final
+    git clone https://github.com/seu-usuario/sistema-obras-mobile.git
+    cd sistema-obras-mobile # Ou o nome do seu diretório clonado, ex: sistema-obras-mobile-final
 
-2. Instale as Dependências:
+  2. Instale as Dependências:
 
-npm install
+    npm install
 
 3. Configure a Conexão com o Backend:
 
