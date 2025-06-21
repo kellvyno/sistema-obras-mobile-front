@@ -87,20 +87,19 @@ Para configurar e rodar este aplicativo em seu ambiente de desenvolvimento, voc�
 
 4. Inicie o Servidor de Desenvolvimento Expo:
 
-    npx expo start --clear
+        npx expo start --clear
 
 (O comando --clear garante que o cache do bundler seja limpo, resolvendo possíveis problemas de carregamento e dependência).
 5. Abra o Aplicativo no Seu Dispositivo:
 
-    Após executar o comando acima, o terminal exibirá um código QR e URLs de acesso.
+ Após executar o comando acima, o terminal exibirá um código QR e URLs de acesso.
 
-    Abra o aplicativo Expo Go no seu smartphone.
+Obra o aplicativo Expo Go no seu smartphone.
+Use a câmera do seu celular para escanear o código QR exibido no terminal.
 
-    Use a câmera do seu celular para escanear o código QR exibido no terminal.
+O aplicativo será carregado no seu dispositivo.
 
-    O aplicativo será carregado no seu dispositivo.
-
-    Alternativas:
+ Alternativas:
 
         Para abrir em um emulador Android conectado (configurado previamente), pressione a no terminal.
 
