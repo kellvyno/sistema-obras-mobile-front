@@ -126,36 +126,36 @@ Após iniciar o aplicativo e garantir que o backend esteja ativo:
 
 A estrutura deste projeto React Native segue convenções comuns para modularidade e organização, facilitando o desenvolvimento e a manutenção.
 
-sistema-obras-mobile-final/
-├── .expo/                       # Cache e configurações internas do Expo
-├── assets/                      # Arquivos de mídia (imagens, ícones)
-├── node_modules/                # Todas as bibliotecas e dependências do projeto
-├── src/                         # Código-fonte principal da aplicação
-│   ├── api/                     # Módulos para comunicação com a API do backend
-│   │   ├── api.js               # Instância configurada do Axios
-│   │   ├── fiscalizacoes.js     # Funções CRUD para a entidade Fiscalização
-│   │   └── obras.js             # Funções CRUD para a entidade Obra
-│   ├── components/              # Componentes de UI reutilizáveis em várias telas
-│   │   ├── BotaoPadrao.js       # Componente de botão customizado
-│   │   └── CardObra.js          # Componente de cartão para exibir obras na lista
-│   ├── hooks/                   # Hooks React personalizados para lógica reutilizável
-│   │   └── useFetchData.js      # Exemplo de hook para buscar dados
-│   ├── navigation/              # Configuração da estrutura de navegação do aplicativo
-│   │   └── AppNavigator.js      # Define o Stack Navigator e as rotas das telas
-│   └── screens/                 # Telas principais do aplicativo
-│       ├── FiscalizacaoDetailsScreen.js # Tela de detalhes de uma fiscalização
-│       ├── FiscalizacaoFormScreen.js    # Formulário para criar/editar fiscalizações
-│       ├── HomeScreen.js                # Tela inicial que lista todas as obras
-│       ├── ObraDetailsScreen.js         # Tela de detalhes de uma obra específica
-│       └── ObraFormScreen.js            # Formulário para criar/editar obras
-│   └── utils/                   # Funções utilitárias e ajudantes
-│       └── formatters.js        # Exemplo de funções de formatação
-├── .gitignore                   # Arquivos e diretórios a serem ignorados pelo Git
-├── App.js                       # Componente raiz principal que renderiza o AppNavigator
-├── app.json                     # Configurações do aplicativo Expo (nome, ícone, splash screen)
-├── index.js                     # Ponto de entrada do aplicativo Expo
-├── package-lock.json            # Garante que as versões das dependências sejam fixas
-└── package.json                 # Metadados do projeto e lista de dependências
+    sistema-obras-mobile-final/
+    ├── .expo/                       # Cache e configurações internas do Expo
+    ├── assets/                      # Arquivos de mídia (imagens, ícones)
+    ├── node_modules/                # Todas as bibliotecas e dependências do projeto
+    ├── src/                         # Código-fonte principal da aplicação
+    │   ├── api/                     # Módulos para comunicação com a API do backend
+    │   │   ├── api.js               # Instância configurada do Axios
+    │   │   ├── fiscalizacoes.js     # Funções CRUD para a entidade Fiscalização
+    │   │   └── obras.js             # Funções CRUD para a entidade Obra
+    │   ├── components/              # Componentes de UI reutilizáveis em várias telas
+    │   │   ├── BotaoPadrao.js       # Componente de botão customizado
+    │   │   └── CardObra.js          # Componente de cartão para exibir obras na lista
+    │   ├── hooks/                   # Hooks React personalizados para lógica reutilizável
+    │   │   └── useFetchData.js      # Exemplo de hook para buscar dados
+    │   ├── navigation/              # Configuração da estrutura de navegação do aplicativo
+    │   │   └── AppNavigator.js      # Define o Stack Navigator e as rotas das telas
+    │   └── screens/                 # Telas principais do aplicativo
+    │       ├── FiscalizacaoDetailsScreen.js # Tela de detalhes de uma fiscalização
+    │       ├── FiscalizacaoFormScreen.js    # Formulário para criar/editar fiscalizações
+    │       ├── HomeScreen.js                # Tela inicial que lista todas as obras
+    │       ├── ObraDetailsScreen.js         # Tela de detalhes de uma obra específica
+    │       └── ObraFormScreen.js            # Formulário para criar/editar obras
+    │   └── utils/                   # Funções utilitárias e ajudantes
+    │       └── formatters.js        # Exemplo de funções de formatação
+    ├── .gitignore                   # Arquivos e diretórios a serem ignorados pelo Git
+    ├── App.js                       # Componente raiz principal que renderiza o AppNavigator
+    ├── app.json                     # Configurações do aplicativo Expo (nome, ícone, splash screen)
+    ├── index.js                     # Ponto de entrada do aplicativo Expo
+    ├── package-lock.json            # Garante que as versões das dependências sejam fixas
+    └── package.json                 # Metadados do projeto e lista de dependências
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs ou sugestões de melhoria, ou para enviar pull requests com novas funcionalidades.
 📞 Suporte
