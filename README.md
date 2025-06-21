@@ -15,15 +15,6 @@ O aplicativo foi cuidadosamente desenvolvido para atender a todos os requisitos 
 
     Campos: Data da fiscalização, Status da obra (Conforme, Não Conforme, Pendente, Em Análise), Observações, Localização (GPS), Foto (tirada na fiscalização), Obra relacionada.
 
-3. Funcionalidades Obrigatórias:
-
-    Tela de Cadastro de Obra: Com uso de câmera e geolocalização.
-
-    Tela de Cadastro de Fiscalização: Vinculando a uma obra existente.
-
-    Tela Home: Listando todas as obras cadastradas.
-
-    Tela de Detalhes da Obra: Exibindo informações completas da obra e a lista de suas fiscalizações associadas.
 
     Botões de Ação: Para editar, excluir e enviar por e-mail os dados da obra e fiscalizações (o usuário digita ou escolhe o e-mail para envio).
 
@@ -166,13 +157,6 @@ sistema-obras-mobile-final/
 ├── package-lock.json            # Garante que as versões das dependências sejam fixas
 └── package.json                 # Metadados do projeto e lista de dependências
 
-🎥 Vídeo Demonstrativo
-
-(Neste espaço, você deve inserir o link para o seu vídeo demonstrativo de até 5 minutos, conforme o requisito da atividade. O vídeo deve percorrer e demonstrar as funcionalidades do aplicativo, como cadastro, visualização, edição, exclusão de obras e fiscalizações, e o envio de e-mail.)
-
-Exemplo:
-Assista a uma demonstração do aplicativo em funcionamento: [Link para o seu vídeo no YouTube/Vimeo/Google Drive]
-🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para bugs ou sugestões de melhoria, ou para enviar pull requests com novas funcionalidades.
 📞 Suporte
