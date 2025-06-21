@@ -70,9 +70,9 @@ Para configurar e rodar este aplicativo em seu ambiente de desenvolvimento, voc�
 
     Localize a linha baseURL.
 
-    Substitua o IP de exemplo (192.168.0.104) pelo IP real da sua máquina na rede local onde o servidor backend está rodando. Este IP é fundamental para que o aplicativo mobile possa se comunicar com o backend. Você pode encontrar este IP no terminal onde o Metro Bundler do Expo está iniciado (geralmente como exp://SEU_IP_AQUI:8081).
+    Substitua o IP de exemplo (192.168.0.104) pelo IP real da sua máquina na rede local onde o servidor backend está rodando. Este IP é fundamental para que o aplicativo mobile possa se comunicar com o backend. Você pode encontrar este IP no terminal onde o Metro Bundler do Expo         está iniciado (geralmente como exp://SEU_IP_AQUI:8081).
 
-    Exemplo:
+ Exemplo:
 
     // src/api/api.js
     import axios from 'axios';
@@ -87,7 +87,7 @@ Para configurar e rodar este aplicativo em seu ambiente de desenvolvimento, voc�
 
 4. Inicie o Servidor de Desenvolvimento Expo:
 
-npx expo start --clear
+    npx expo start --clear
 
 (O comando --clear garante que o cache do bundler seja limpo, resolvendo possíveis problemas de carregamento e dependência).
 5. Abra o Aplicativo no Seu Dispositivo:
