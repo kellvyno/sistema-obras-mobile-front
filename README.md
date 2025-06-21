@@ -66,7 +66,7 @@ Para configurar e rodar este aplicativo em seu ambiente de desenvolvimento, voc�
 
 3. Configure a Conexão com o Backend:
 
-    Abra o arquivo src/api/api.js no seu editor de código.
+        Abra o arquivo src/api/api.js no seu editor de código.
 
     Localize a linha baseURL.
 
